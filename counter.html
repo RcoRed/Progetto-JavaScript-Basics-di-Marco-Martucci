@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang='it'>
   <head>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset='UTF-8'>
     <title>Counter</title>
+
   </head>
 
   <body>
-    <div>
+    <div class="numero">
       <h1 id="h1" onchange="resize()">0</h1>
     </div>
 
-    <div>
-      <div class='button'>
-        <button onclick="pariDispari()">Scoprilo!</button>
+    <div class="ordine">
+      <div class='pulsanti'>
+        <a onclick="cambio(0)">-</a>
       </div>
 
-      <div class='button'>
-        <button onclick="pariDispari()">Scoprilo!</button>
+      <div class='pulsanti'>
+        <a class='button' mouseenter="noSelect" onclick="cambio(1)">+</a>
       </div>
     </div>
 
