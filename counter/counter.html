@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang='it'>
   <head>
-    <script type="text/javascript" src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset='UTF-8'>
     <title>Counter</title>
 
@@ -10,16 +10,16 @@
 
   <body>
     <div class="numero">
-      <h1 id="h1" onchange="resize()">0</h1>
+      <h1 id="h1">0</h1>
     </div>
 
     <div class="ordine">
       <div class='pulsanti'>
-        <a onclick="cambio(0)">-</a>
+        <a id="primo" class='button'>-</a>
       </div>
 
-      <div class='pulsanti'>
-        <a class='button' onclick="cambio(1)">+</a>
+      <div  class='pulsanti'>
+        <a id="secondo" class='button'>+</a>
       </div>
     </div>
 
